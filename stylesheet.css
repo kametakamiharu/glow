@@ -1,0 +1,335 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.txtl{
+  font-family:"Bradley Hand ITC", ＤＦＰ行書体, cursive;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.txtm{
+  font-family:"Bradley Hand ITC", ＤＦＰ行書体, cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.txts{
+  font-family: "HGSゴシックM" ;
+  font-size: 16px;
+}
+
+.txtss{
+  font-size: 12px;
+}
+
+
+/*////////////////////////header/////////////////////////*/
+
+
+.header-in{
+  width:100%;
+  height:80px;
+  background-color:rgba(0,0,0,0.0);
+  position:fixed;
+  top:0;
+  z-index:10
+}
+
+.header-list li{
+  float:left;
+  font-family:"Bradley Hand ITC", ＤＦＰ行書体, cursive;
+  font-weight: bold;
+  font-size: 22px;
+  padding:10px 30px;
+  list-style:none;
+  color:black;
+  opacity:0.9;
+  display:block;
+}
+
+.header-list{
+  padding-left: 100px;
+}
+
+.header-list a{
+  text-decoration: none;
+  color: black
+}
+
+.header-right li{
+  color:black;
+  list-style:none;
+  float:right;
+  padding:10px 15px;
+}
+
+.header-right{
+  padding-right:100px;
+}
+
+.header-list :hover{
+  opacity: 0.8;
+}
+
+/*///////////////////////////////top//////////////////////////*/
+
+.top-left{
+  width: 100%;
+  background: #E9E9E5;
+  height: 756.362px;
+  text-align: center;
+
+}
+
+.top-image{
+  width: 750px;
+}
+
+.top{
+  display: flex;
+}
+
+.top .logo{
+padding-top: 280px;
+width: 280px;
+}
+
+
+/*//////////////////////////consept////////////////////////*/
+
+
+.consept-right{
+padding-right: 150px;
+text-align: right;
+}
+
+.consept-image{
+  height: 600px;
+  margin-left: 150px;
+}
+
+.consept{
+  display: flex;
+  padding:80px 0;
+}
+
+.consept .details{
+  text-align: right;
+  padding: 30px 0 80px 50px;
+}
+
+.consept .logo-mini{
+  width: 150px;
+}
+
+.btn-more{
+  width:200px;
+  height:50px;
+  border:1px solid #E9E9E5;
+  background-color: #E9E9E5;
+  border-radius:25px;
+  text-align:center;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.btn-more a{
+  font-family:"Bradley Hand ITC", ＤＦＰ行書体, cursive;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  display:block;
+  height:100%;
+  width:100%;
+  padding-top:12px;
+}
+
+.btn-more :hover{
+  opacity: 0.7;
+}
+
+
+/*///////////////////staff/////////////////////////*/
+
+.staff{
+  padding: 0 150px 0 150px;
+}
+
+.staff-member{
+  background: rgb(250,250,250);
+  margin-bottom: 40px;
+}
+
+.staff-boxes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.staff-box{
+  display: table-cell;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.staff-face{
+  width: 180px;
+}
+
+.staff .txtm {
+  margin: 10px 0;
+}
+
+.staff-details{
+  width: 180px;
+}
+
+.staff .txts{
+  margin-bottom: 0;
+}
+
+.staff .txtl{
+  text-align: center;
+  margin-top: 0
+}
+
+.staff-btn{
+  text-align: right;
+}
+
+/*/////////////////////menu/////////////////////////*/
+
+.menu{
+  padding: 40px 0;
+  margin: 0 150px;
+  text-align: center;
+}
+
+.menu-image{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.menu-btn{
+  text-align: right;
+}
+
+/*///////////////////////////////news///////////////////////*/
+
+.news{
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.news-box img{
+  vertical-align: top;
+  width: 170px;
+  box-shadow: 4px 6px 8px gray;
+}
+
+.news-details{
+  display: inline-block;
+  padding-left: 50px;
+  width: 600px;
+}
+
+.news-boxes{
+  margin: 0 150px;
+  height: 650px;
+  overflow: scroll;
+}
+
+.news-boxes::-webkit-scrollbar {
+  display:none;
+}
+
+.news-details p{
+  text-align: left;
+  color: black;
+}
+
+.news-box{
+  padding-bottom: 30px;
+  transition: 0.4s;
+}
+
+.news-box :hover{
+  opacity: 0.6;
+}
+
+.news a{
+  text-decoration: none;
+}
+
+.news .txtm{
+  font-weight: normal;
+  font-family: "HGSゴシックM";
+  font-size: 24px;
+}
+
+/*//////////////////////////shop///////////////////////*/
+
+.shop{
+  text-align: center;
+  padding: 0 150px 40px 150px;
+}
+
+.shop-box{
+  padding-bottom: 60px;
+}
+
+.shop-image{
+  width: 400px;
+  vertical-align: top;
+
+}
+
+.shop-details{
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+
+.shop .logo-mini{
+  width: 100px;
+}
+
+.shop ul{
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 10px
+}
+
+.shop li{
+  list-style: none;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0 3px 0;
+}
+
+.shop .txts{
+  font-size: 16px;
+  padding:10px 0 40px 0;
+}
+
+
+/*//////////////////footer//////////////////////////*/
+
+footer{
+  text-align: center;
+}
+
+footer .txtss{
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
